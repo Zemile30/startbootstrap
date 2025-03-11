@@ -11,7 +11,7 @@ a:hover {
 }
 
 header {
-  background-color: #2d2828;
+  background-color: #1b1919;
   padding: 20px 0;
 }
 header .imgbox {
@@ -30,19 +30,31 @@ header:hover nav a {
   cursor: pointer;
 }
 
-#welcome .box {
+#welcome {
   background-image: url(Assets/header-bg.jpg);
   background-size: cover;
 }
+#welcome .box {
+  padding: 150px;
+}
 #welcome .box .textbox h2 {
-  font-size: 30px;
+  font-size: 50px;
   color: white;
+  line-height: 1.2;
+  margin-top: 80px;
 }
 #welcome .box .textbox h1 {
-  font-size: 60px;
+  font-weight: 700;
+  font-size: 80px;
   color: white;
+  margin: 20px 0;
+  line-height: 1.2;
 }
 #welcome .box .textbox .btn {
-  padding: 15px 35px;
+  padding: 20px 45px;
   color: white;
+  background-color: rgb(234, 198, 34);
+  font-weight: 700;
+  margin: 40px 0 50px;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
