@@ -17,11 +17,32 @@ header {
 header .imgbox {
   width: 150px;
 }
+header .menu {
+  padding-left: 80px;
+}
 header nav a {
   font-size: 18px;
   color: #eee7e7;
-  margin: 20px;
+  margin: 30px 20px;
 }
 header:hover nav a {
   color: #f4d629;
+  cursor: pointer;
+}
+
+#welcome .box {
+  background-image: url(Assets/header-bg.jpg);
+  background-size: cover;
+}
+#welcome .box .textbox h2 {
+  font-size: 30px;
+  color: white;
+}
+#welcome .box .textbox h1 {
+  font-size: 60px;
+  color: white;
+}
+#welcome .box .textbox .btn {
+  padding: 15px 35px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
