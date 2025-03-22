@@ -11,8 +11,10 @@ a:hover {
 }
 
 header {
-  background-color: #1b1919;
+  background-color: #212529;
   padding: 20px 0;
+  position: fixed;
+  width: 1550px;
 }
 header .imgbox {
   width: 150px;
@@ -25,8 +27,8 @@ header nav a {
   color: #eee7e7;
   margin: 30px 20px;
 }
-header:hover nav a {
-  color: #f4d629;
+header:hover a {
+  color: #ffc800;
   cursor: pointer;
 }
 
@@ -38,23 +40,73 @@ header:hover nav a {
   padding: 150px;
 }
 #welcome .box .textbox h2 {
-  font-size: 50px;
+  font-weight: 500;
+  font-size: 45px;
   color: white;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-top: 80px;
+  font-style: italic;
 }
 #welcome .box .textbox h1 {
   font-weight: 700;
   font-size: 80px;
   color: white;
   margin: 20px 0;
-  line-height: 1.2;
 }
 #welcome .box .textbox .btn {
   padding: 20px 45px;
   color: white;
-  background-color: rgb(234, 198, 34);
+  background-color: #ffc800;
   font-weight: 700;
   margin: 40px 0 50px;
   font-size: 20px;
+}
+
+#services {
+  padding: 60px 0;
+}
+#services h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#services h3, #services p {
+  color: #716e6e;
+  font-size: 19px;
+  margin: 20px 0 50px;
+  line-height: 1.6;
+}
+#services .box .minibox {
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #ffc800;
+  padding: 30px;
+  margin: 0 140px;
+}
+#services .box .minibox .icon {
+  font-size: 60px;
+  color: white;
+}
+#services .box .textbox {
+  padding: 20px;
+}
+#services .box .textbox h2 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#portfolio {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+#portfolio h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#portfolio h3 {
+  color: #716e6e;
+  font-size: 18px;
+  font-style: italic;
+  margin: 20px 0 50px;
 }/*# sourceMappingURL=style.css.map */
