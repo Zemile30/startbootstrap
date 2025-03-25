@@ -2,13 +2,12 @@
     background-image:  url(Assets/header-bg.jpg)
     background-size: cover
     .box
-        padding: 150px
+        height: 800px
         .textbox
             h2
                 font-weight: 500
                 font-size: 45px
                 color:  #ffff
-                line-height: 1.4
                 margin-top: 80px
                 font-style: italic
             h1
@@ -23,5 +22,13 @@
                 font-weight: 700
                 margin: 40px 0 50px
                 font-size: 20px
+    @media (max-width: 768px)
+        .box
+            .textbox
+                h2 
+                    font-size: 31px
+                h1 
+                    font-size: 65px
+              
                 
         

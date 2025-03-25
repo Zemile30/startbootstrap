@@ -37,13 +37,12 @@ header:hover a {
   background-size: cover;
 }
 #welcome .box {
-  padding: 150px;
+  height: 800px;
 }
 #welcome .box .textbox h2 {
   font-weight: 500;
   font-size: 45px;
   color: white;
-  line-height: 1.4;
   margin-top: 80px;
   font-style: italic;
 }
@@ -61,9 +60,17 @@ header:hover a {
   margin: 40px 0 50px;
   font-size: 20px;
 }
+@media (max-width: 768px) {
+  #welcome .box .textbox h2 {
+    font-size: 31px;
+  }
+  #welcome .box .textbox h1 {
+    font-size: 65px;
+  }
+}
 
 #services {
-  padding: 60px 0;
+  padding: 50px 0;
 }
 #services h1 {
   font-weight: 700;
@@ -73,20 +80,27 @@ header:hover a {
   color: #716e6e;
   font-size: 19px;
   margin: 20px 0 50px;
-  line-height: 1.6;
+}
+#services p {
+  line-height: 1.4;
+}
+#services .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #services .box .minibox {
-  width: 130px;
+  width: 128px;
+  height: 130px;
   display: flex;
   justify-content: center;
-  border-radius: 100%;
+  align-items: center;
   background-color: #ffc800;
-  padding: 30px;
-  margin: 0 140px;
+  border-radius: 100%;
 }
 #services .box .minibox .icon {
-  font-size: 60px;
-  color: white;
+  font-size: 62px;
+  color: #ffffff;
 }
 #services .box .textbox {
   padding: 20px;
@@ -94,6 +108,12 @@ header:hover a {
 #services .box .textbox h2 {
   font-weight: 700;
   font-size: 28px;
+}
+@media (max-width: 768px) {
+  #services .box {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 #portfolio {
