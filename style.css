@@ -124,9 +124,27 @@ header:hover a {
   font-weight: 700;
   font-size: 40px;
 }
-#portfolio h3 {
+#portfolio h3, #portfolio h4 {
   color: #716e6e;
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
   margin: 20px 0 50px;
+}
+#portfolio .box {
+  background-color: #ffffff;
+  padding-bottom: 10px;
+}
+#portfolio .box .imgbox img {
+  width: 420px;
+}
+#portfolio .box .textbox {
+  text-align: center;
+}
+#portfolio .box .textbox h2 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 25px;
+}
+#portfolio .box .textbox h4 {
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */
