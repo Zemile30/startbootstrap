@@ -131,14 +131,37 @@ header:hover a {
   margin: 20px 0 50px;
 }
 #portfolio .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #ffffff;
-  padding-bottom: 10px;
+  margin-bottom: 25px;
+  transition: 4s;
 }
 #portfolio .box .imgbox img {
   width: 420px;
 }
-#portfolio .box .textbox {
-  text-align: center;
+#portfolio .box .imgbox .minibox {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#portfolio .box:hover .minibox {
+  width: 420px;
+  height: 318px;
+  background-color: #fcb402;
+  opacity: 0.9;
+  position: absolute;
+  left: 118px;
+  top: 1555px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#portfolio .box:hover .minibox h5 {
+  color: #ffffff;
+  font-size: 150px;
 }
 #portfolio .box .textbox h2 {
   font-weight: 700;
@@ -146,5 +169,5 @@ header:hover a {
   margin-top: 25px;
 }
 #portfolio .box .textbox h4 {
-  margin-top: 10px;
+  margin: 10px 0 20px;
 }/*# sourceMappingURL=style.css.map */
