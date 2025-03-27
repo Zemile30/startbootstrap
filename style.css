@@ -137,19 +137,16 @@ header:hover a {
   align-items: center;
   background-color: #ffffff;
   margin-bottom: 25px;
-  transition: 4s;
+}
+#portfolio .box .imgbox {
+  overflow: hidden;
 }
 #portfolio .box .imgbox img {
-  width: 420px;
+  width: 100%;
 }
-#portfolio .box .imgbox .minibox {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-#portfolio .box:hover .minibox {
-  width: 420px;
-  height: 318px;
+#portfolio .box:hover .imgbox .minibox1 {
+  width: 419px;
+  height: 314px;
   background-color: #fcb402;
   opacity: 0.9;
   position: absolute;
@@ -158,8 +155,100 @@ header:hover a {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  transition: 1s;
 }
-#portfolio .box:hover .minibox h5 {
+#portfolio .box:hover .imgbox .minibox1 h5 {
+  color: #ffffff;
+  font-size: 150px;
+}
+#portfolio .box:hover .imgbox .minibox2 {
+  width: 419px;
+  height: 314px;
+  background-color: #fcb402;
+  opacity: 0.9;
+  position: absolute;
+  left: 557px;
+  top: 1555px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 1s;
+}
+#portfolio .box:hover .imgbox .minibox2 h5 {
+  color: #ffffff;
+  font-size: 150px;
+}
+#portfolio .box:hover .imgbox .minibox3 {
+  width: 419px;
+  height: 314px;
+  background-color: #fcb402;
+  opacity: 0.9;
+  position: absolute;
+  left: 1000px;
+  top: 1555px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 1s;
+}
+#portfolio .box:hover .imgbox .minibox3 h5 {
+  color: #ffffff;
+  font-size: 150px;
+}
+#portfolio .box:hover .imgbox .minibox4 {
+  width: 419px;
+  height: 314px;
+  background-color: #fcb402;
+  opacity: 0.9;
+  position: absolute;
+  left: 118px;
+  top: 2011px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 1s;
+}
+#portfolio .box:hover .imgbox .minibox4 h5 {
+  color: #ffffff;
+  font-size: 150px;
+}
+#portfolio .box:hover .imgbox .minibox5 {
+  width: 419px;
+  height: 314px;
+  background-color: #fcb402;
+  opacity: 0.9;
+  position: absolute;
+  left: 557px;
+  top: 2011px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 1s;
+}
+#portfolio .box:hover .imgbox .minibox5 h5 {
+  color: #ffffff;
+  font-size: 150px;
+}
+#portfolio .box:hover .imgbox .minibox6 {
+  width: 419px;
+  height: 314px;
+  background-color: #fcb402;
+  opacity: 0.9;
+  position: absolute;
+  left: 1000px;
+  top: 2011px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 1s;
+}
+#portfolio .box:hover .imgbox .minibox6 h5 {
   color: #ffffff;
   font-size: 150px;
 }
