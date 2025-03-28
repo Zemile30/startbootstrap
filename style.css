@@ -144,21 +144,28 @@ header:hover a {
 #portfolio .box .imgbox img {
   width: 100%;
 }
-#portfolio .box:hover .minibox {
-  width: 100%;
-  height: 100%;
+#portfolio .box .imgbox .minibox {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#portfolio .box .imgbox:hover .minibox {
+  width: 416px;
+  height: 312px;
   background-color: #fcb402;
   opacity: 0.9;
   position: absolute;
+  left: 120px;
+  top: 1557px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   transition: 1s;
 }
-#portfolio .box:hover .minibox .icon {
+#portfolio .box .imgbox:hover .minibox .icon {
   color: #ffffff;
-  font-size: 150px;
+  font-size: 60px;
 }
 #portfolio .box .textbox h2 {
   font-weight: 700;
