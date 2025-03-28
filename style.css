@@ -144,111 +144,19 @@ header:hover a {
 #portfolio .box .imgbox img {
   width: 100%;
 }
-#portfolio .box:hover .imgbox .minibox1 {
-  width: 419px;
-  height: 314px;
+#portfolio .box:hover .minibox {
+  width: 100%;
+  height: 100%;
   background-color: #fcb402;
   opacity: 0.9;
   position: absolute;
-  left: 118px;
-  top: 1555px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   transition: 1s;
 }
-#portfolio .box:hover .imgbox .minibox1 h5 {
-  color: #ffffff;
-  font-size: 150px;
-}
-#portfolio .box:hover .imgbox .minibox2 {
-  width: 419px;
-  height: 314px;
-  background-color: #fcb402;
-  opacity: 0.9;
-  position: absolute;
-  left: 557px;
-  top: 1555px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: 1s;
-}
-#portfolio .box:hover .imgbox .minibox2 h5 {
-  color: #ffffff;
-  font-size: 150px;
-}
-#portfolio .box:hover .imgbox .minibox3 {
-  width: 419px;
-  height: 314px;
-  background-color: #fcb402;
-  opacity: 0.9;
-  position: absolute;
-  left: 1000px;
-  top: 1555px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: 1s;
-}
-#portfolio .box:hover .imgbox .minibox3 h5 {
-  color: #ffffff;
-  font-size: 150px;
-}
-#portfolio .box:hover .imgbox .minibox4 {
-  width: 419px;
-  height: 314px;
-  background-color: #fcb402;
-  opacity: 0.9;
-  position: absolute;
-  left: 118px;
-  top: 2011px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: 1s;
-}
-#portfolio .box:hover .imgbox .minibox4 h5 {
-  color: #ffffff;
-  font-size: 150px;
-}
-#portfolio .box:hover .imgbox .minibox5 {
-  width: 419px;
-  height: 314px;
-  background-color: #fcb402;
-  opacity: 0.9;
-  position: absolute;
-  left: 557px;
-  top: 2011px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: 1s;
-}
-#portfolio .box:hover .imgbox .minibox5 h5 {
-  color: #ffffff;
-  font-size: 150px;
-}
-#portfolio .box:hover .imgbox .minibox6 {
-  width: 419px;
-  height: 314px;
-  background-color: #fcb402;
-  opacity: 0.9;
-  position: absolute;
-  left: 1000px;
-  top: 2011px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: 1s;
-}
-#portfolio .box:hover .imgbox .minibox6 h5 {
+#portfolio .box:hover .minibox .icon {
   color: #ffffff;
   font-size: 150px;
 }
