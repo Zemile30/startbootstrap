@@ -28,8 +28,8 @@ header nav a {
   margin: 30px 20px;
 }
 header:hover a {
-  color: #ffc800;
   cursor: pointer;
+  color: #ffc800;
 }
 
 #welcome {
@@ -174,4 +174,24 @@ header:hover a {
 }
 #portfolio .box .textbox h4 {
   margin: 10px 0 20px;
+}
+
+#about {
+  padding: 50px 0;
+}
+#about h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#about h3 {
+  color: #716e6e;
+  font-size: 20px;
+  font-style: italic;
+  margin: 20px 0 50px;
+}
+#about .box {
+  display: flex;
+}
+#about .box .textbox {
+  padding: 40px;
 }/*# sourceMappingURL=style.css.map */
