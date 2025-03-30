@@ -187,11 +187,55 @@ header:hover a {
   color: #716e6e;
   font-size: 20px;
   font-style: italic;
-  margin: 20px 0 50px;
+  margin: 20px 0 0;
 }
 #about .box {
   display: flex;
+  justify-content: center;
 }
-#about .box .textbox {
-  padding: 40px;
+#about .box .wid {
+  width: 600px;
+}
+#about .box .wid h2, #about .box .wid h4 {
+  font-weight: 700;
+  font-size: 25px;
+}
+#about .box .wid h4 {
+  margin: 10px 0;
+}
+#about .box .wid p {
+  font-size: 20px;
+  color: #716e6e;
+  line-height: 1.2;
+}
+#about .box .imgbox img {
+  border: 5px solid rgb(219, 217, 217);
+  border-radius: 100%;
+  width: 170px;
+  height: 170px;
+}
+#about .box1 {
+  display: flex;
+  justify-content: center;
+}
+#about .box1 .wid {
+  width: 570px;
+}
+#about .box1 .wid h2, #about .box1 .wid h4 {
+  font-weight: 700;
+  font-size: 25px;
+}
+#about .box1 .wid h4 {
+  margin: 10px 0;
+}
+#about .box1 .wid p {
+  font-size: 20px;
+  color: #716e6e;
+  line-height: 1.2;
+}
+#about .box1 .imgbox img {
+  border: 5px solid rgb(219, 217, 217);
+  border-radius: 100%;
+  width: 170px;
+  height: 170px;
 }/*# sourceMappingURL=style.css.map */
