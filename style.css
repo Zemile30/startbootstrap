@@ -190,7 +190,7 @@ header:hover a {
   margin: 20px 0 0;
 }
 #about .box {
-  margin: 60px 100px;
+  margin: 60px 100px 80px;
   width: 640px;
   display: flex;
   justify-content: center;
@@ -219,10 +219,10 @@ header:hover a {
 #about .boxleft {
   display: flex;
   justify-content: end;
-  margin-right: 55px;
+  margin: 60px 68px 80px;
 }
 #about .boxleft .textbox {
-  width: 500px;
+  width: 490px;
   padding-left: 50px;
 }
 #about .boxleft .textbox h2, #about .boxleft .textbox h4 {
@@ -242,4 +242,40 @@ header:hover a {
   border-radius: 100%;
   width: 170px;
   height: 170px;
+}
+#about .boxend {
+  margin-top: 40px;
+}
+#about .boxend .minibox {
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+  border: 5px solid rgb(219, 217, 217);
+  background-color: #ffc800;
+  padding: 48px;
+}
+#about .boxend .minibox h5 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+#team {
+  padding: 50px 0;
+}
+#team h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#team h3 {
+  color: #716e6e;
+  font-size: 20px;
+  font-style: italic;
+  margin: 20px 0 60px;
+}
+#team .imgbox img {
+  width: 220px;
+  border: 6px solid rgb(219, 217, 217);
+  border-radius: 100%;
 }/*# sourceMappingURL=style.css.map */
