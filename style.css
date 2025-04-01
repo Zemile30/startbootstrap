@@ -190,23 +190,25 @@ header:hover a {
   margin: 20px 0 0;
 }
 #about .box {
+  margin: 60px 100px;
+  width: 640px;
   display: flex;
   justify-content: center;
 }
-#about .box .wid {
-  width: 600px;
+#about .box .textbox {
+  padding-right: 50px;
 }
-#about .box .wid h2, #about .box .wid h4 {
+#about .box .textbox h2, #about .box .textbox h4 {
   font-weight: 700;
   font-size: 25px;
 }
-#about .box .wid h4 {
+#about .box .textbox h4 {
   margin: 10px 0;
 }
-#about .box .wid p {
+#about .box .textbox p {
   font-size: 20px;
   color: #716e6e;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 #about .box .imgbox img {
   border: 5px solid rgb(219, 217, 217);
@@ -214,26 +216,28 @@ header:hover a {
   width: 170px;
   height: 170px;
 }
-#about .box1 {
+#about .boxleft {
   display: flex;
-  justify-content: center;
+  justify-content: end;
+  margin-right: 55px;
 }
-#about .box1 .wid {
-  width: 570px;
+#about .boxleft .textbox {
+  width: 500px;
+  padding-left: 50px;
 }
-#about .box1 .wid h2, #about .box1 .wid h4 {
+#about .boxleft .textbox h2, #about .boxleft .textbox h4 {
   font-weight: 700;
   font-size: 25px;
 }
-#about .box1 .wid h4 {
+#about .boxleft .textbox h4 {
   margin: 10px 0;
 }
-#about .box1 .wid p {
+#about .boxleft .textbox p {
   font-size: 20px;
   color: #716e6e;
-  line-height: 1.2;
+  line-height: 1.5;
 }
-#about .box1 .imgbox img {
+#about .boxleft .imgbox img {
   border: 5px solid rgb(219, 217, 217);
   border-radius: 100%;
   width: 170px;
