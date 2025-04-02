@@ -262,6 +262,7 @@ header:hover a {
 }
 
 #team {
+  background-color: #f8f9fa;
   padding: 50px 0;
 }
 #team h1 {
@@ -278,4 +279,49 @@ header:hover a {
   width: 220px;
   border: 6px solid rgb(219, 217, 217);
   border-radius: 100%;
+}
+#team .textbox h2 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 20px;
+}
+#team .textbox h4 {
+  color: #716e6e;
+  font-size: 20px;
+  margin: 10px 0 20px;
+}
+#team .textbox ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#team .textbox ul li {
+  margin: 0 10px;
+  background-color: rgb(31, 30, 30);
+  border-radius: 50%;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+#team .textbox ul li .icon {
+  color: #ffffff;
+  margin: -7px;
+}
+#team .boxend {
+  padding: 0 200px;
+}
+#team .boxend p {
+  color: #716e6e;
+  font-size: 20px;
+  margin: 50px 0;
+  line-height: 1.4;
+}
+#client {
+  padding: 50px 0;
+}
+#client .imgbox {
+  margin: 20px 70px;
+}
+#client .imgbox img {
+  height: 44px;
 }/*# sourceMappingURL=style.css.map */
