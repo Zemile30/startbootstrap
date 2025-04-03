@@ -324,4 +324,29 @@ header:hover a {
 }
 #client .imgbox img {
   height: 44px;
+}
+
+#contact {
+  padding: 50px 0;
+  background-image: url(Assets/map-image.png);
+  background-size: cover;
+}
+#contact h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#contact h3 {
+  color: #716e6e;
+  font-size: 20px;
+  font-style: italic;
+  margin: 20px 0 0;
+}
+#contact .add {
+  display: flex;
+  flex-direction: column;
+}
+#contact .add input {
+  border: 1px solid;
+  background-color: #f6f1f1;
+  width: 400px;
 }/*# sourceMappingURL=style.css.map */
