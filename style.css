@@ -33,7 +33,7 @@ header:hover a {
 }
 
 #welcome {
-  background-image: url(Assets/header-bg.jpg);
+  background-image: url("Assets/header-bg.jpg");
   background-size: cover;
 }
 #welcome .box {
@@ -330,6 +330,7 @@ header:hover a {
   padding: 50px 0;
   background-image: url(Assets/map-image.png);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 #contact h1 {
   font-weight: 700;
@@ -339,7 +340,7 @@ header:hover a {
   color: #716e6e;
   font-size: 20px;
   font-style: italic;
-  margin: 20px 0 0;
+  margin: 20px 0 50px;
 }
 #contact .add {
   display: flex;
@@ -348,5 +349,7 @@ header:hover a {
 #contact .add input {
   border: 1px solid;
   background-color: #f6f1f1;
-  width: 400px;
+  width: 640px;
+  height: 70px;
+  margin: 20px 0;
 }/*# sourceMappingURL=style.css.map */
