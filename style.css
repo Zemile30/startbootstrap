@@ -281,6 +281,33 @@ header:hover a {
   font-size: 22px;
   line-height: 1.2;
 }
+@media (max-width: 300px) {
+  #about .box {
+    margin: 30px 0;
+  }
+  #about .box .imgbox {
+    width: 75px;
+    height: 75px;
+  }
+  #about .box .textbox {
+    width: 180px;
+    margin-left: 20px;
+    text-align: start;
+  }
+  #about .box1 {
+    margin: 30px 0;
+  }
+  #about .box1 .imgbox {
+    width: 75px;
+    height: 75px;
+    margin-right: 0;
+  }
+  #about .box1 .textbox {
+    width: 130px;
+    margin-left: 20px;
+    text-align: start;
+  }
+}
 
 #team {
   background-color: #f8f9fa;
