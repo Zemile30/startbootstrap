@@ -12,19 +12,32 @@
         color:  #716e6e
         font-size: 20px
         font-style: italic
-        margin: 20px 0 50px 
-    .add
+        margin: 20px 0 50px
+    .box
         display: flex
         flex-direction: column
-        input
-            border: 1px solid 
-            width: 640px
-            height: 70px
-            margin: 12px 0
-    textarea
-        margin: 10px 0 0 20px
-        padding: 20px 0 0 20px
-    .box
+        margin-bottom: 20px
+        .add
+            input
+                border: 1px solid  #ced4da
+                display: block
+                width: 100%
+                margin: 12px 0
+                font-weight: 600
+                font-size: 17px
+                border-radius: 5px
+                color: rgb(188, 185, 185)
+                line-height: 1.6
+                padding: 20px 
+        textarea
+            margin: 10px 0 
+            padding: 20px 0 0 20px
+            font-weight: 600
+            font-size: 17px
+            border-radius: 5px
+            color: rgb(188, 185, 185)
+            line-height: 1.6
+    .box1
         .btn
             padding: 20px 50px
             background-color:  #ffc800
@@ -33,3 +46,20 @@
             font-size: 20px
             font-weight: 700
             margin: 50px 0
+
+    @media (max-width: 768px)
+        .box
+            display: flex
+            flex-direction: column
+            justify-content: center
+            .add
+                input
+                    // width: 500px
+                    // height: 70px
+            textarea
+                padding: auto
+                margin: 12px 0
+                width: 500px
+                height: 200px
+            
+                
