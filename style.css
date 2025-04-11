@@ -10,31 +10,29 @@ a:hover {
   color: black;
 }
 
-header {
+header .box {
   background-color: #212529;
-  padding: 20px 0;
+  padding: 20px 80px;
   position: fixed;
+  top: 0;
+  left: 0;
   width: 1550px;
 }
-header .imgbox {
+header .box .imgbox {
   width: 150px;
 }
-header .menu {
-  padding-left: 80px;
+header .box .menu {
+  padding-right: 50px;
 }
-header nav a {
+header .box nav a {
   font-size: 18px;
   color: #eee7e7;
   margin: 30px 20px;
+  transition: 1s;
 }
-header:hover a {
+header .box:hover a {
   cursor: pointer;
   color: #ffc800;
-}
-@media (max-width: 300px) {
-  header {
-    width: 300px;
-  }
 }
 
 #welcome {
@@ -147,7 +145,6 @@ header:hover a {
   margin: 15px 0;
 }
 #portfolio .box .imgbox {
-  display: block;
   position: relative;
 }
 #portfolio .box .imgbox img {
@@ -202,79 +199,83 @@ header:hover a {
   font-style: italic;
   margin: 20px 0 0;
 }
-#about .box {
+#about .box .minibox {
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
   margin: 60px 80px 100px;
 }
-#about .box .imgbox {
+#about .box .minibox .imgbox {
   width: 170px;
   height: 170px;
+  text-align: center;
   border: 7px solid #e9ecef;
   border-radius: 100%;
   background-color: #ffc800;
 }
-#about .box .imgbox img {
+#about .box .minibox .imgbox img {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
 }
-#about .box .textbox {
+#about .box .minibox .textbox {
   width: 470px;
   padding-right: 50px;
   text-align: end;
 }
-#about .box .textbox h2, #about .box .textbox h4 {
+#about .box .minibox .textbox h2, #about .box .minibox .textbox h4 {
   font-weight: 700;
   font-size: 25px;
 }
-#about .box .textbox h4 {
+#about .box .minibox .textbox h4 {
   margin: 10px 0;
 }
-#about .box .textbox p {
+#about .box .minibox .textbox p {
   font-size: 20px;
   color: #716e6e;
   line-height: 1.5;
 }
-#about .box1 {
+#about .box .minibox1 {
   display: flex;
   justify-content: flex-end;
-  margin: 60px 0 100px;
+  margin: 60px 0;
 }
-#about .box1 .imgbox {
+#about .box .minibox1 .imgbox {
   width: 170px;
   height: 170px;
   border: 7px solid #e9ecef;
+  text-align: center;
   border-radius: 100%;
   background-color: #ffc800;
   margin-right: 75px;
 }
-#about .box1 .imgbox img {
+#about .box .minibox1 .imgbox img {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
 }
-#about .box1 .textbox {
+#about .box .minibox1 .textbox {
   width: 450px;
   margin-right: 50px;
 }
-#about .box1 .textbox h2, #about .box1 .textbox h4 {
+#about .box .minibox1 .textbox h2, #about .box .minibox1 .textbox h4 {
   font-weight: 700;
   font-size: 25px;
 }
-#about .box1 .textbox h4 {
+#about .box .minibox1 .textbox h4 {
   margin: 10px 0;
 }
-#about .box1 .textbox p {
+#about .box .minibox1 .textbox p {
   font-size: 20px;
   color: #716e6e;
   line-height: 1.5;
 }
-#about .boxend {
+#about .box .boxend {
   margin-top: 40px;
   display: flex;
   justify-content: center;
 }
-#about .boxend .minibox {
+#about .box .boxend .minibox2 {
   display: flex;
   align-items: center;
   width: 170px;
@@ -284,7 +285,7 @@ header:hover a {
   background-color: #ffc800;
   padding: 0 48px;
 }
-#about .boxend .minibox h5 {
+#about .box .boxend .minibox2 h5 {
   color: #ffffff;
   font-weight: 700;
   font-size: 22px;
@@ -432,19 +433,18 @@ header:hover a {
   margin: 12px 0;
   font-weight: 600;
   font-size: 17px;
-  border-radius: 5px;
   color: rgb(188, 185, 185);
-  line-height: 1.6;
   padding: 20px;
 }
 #contact .box textarea {
+  display: block;
+  width: 100%;
   margin: 10px 0;
   padding: 20px 0 0 20px;
   font-weight: 600;
   font-size: 17px;
   border-radius: 5px;
   color: rgb(188, 185, 185);
-  line-height: 1.6;
 }
 #contact .box1 .btn {
   padding: 20px 50px;
@@ -464,15 +464,13 @@ header:hover a {
   #contact .box textarea {
     padding: auto;
     margin: 12px 0;
-    width: 500px;
-    height: 200px;
   }
 }
 
 footer {
   padding: 30px 0;
 }
-footer h1 {
+footer .box h1 {
   color: rgb(103, 97, 97);
 }
 footer ul {
@@ -492,10 +490,29 @@ footer ul li .icon {
   color: #ffffff;
   margin: -7px;
 }
-footer h2 {
+footer .box1 {
+  display: flex;
+  justify-content: flex-end;
+}
+footer .box1 h2 {
   margin-right: 20px;
   color: rgb(103, 97, 97);
 }
-footer h3 {
+footer .box1 h3 {
   color: rgb(103, 97, 97);
+}
+@media (max-width: 768px) {
+  footer .box {
+    display: flex;
+    justify-content: center;
+  }
+  footer ul {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  footer .box1 {
+    display: flex;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */

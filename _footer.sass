@@ -1,7 +1,8 @@
 footer
     padding: 30px 0
-    h1 
-        color:  rgb(103, 97, 97)
+    .box
+        h1
+            color: rgb(103, 97, 97)
     ul
         display: flex
         flex-direction: row
@@ -14,10 +15,25 @@ footer
             width: 10px
             height: 10px
             .icon
-                color:  #ffffff
-                margin: -7px 
-    h2 
-        margin-right: 20px
-        color:  rgb(103, 97, 97)
-    h3 
-        color:  rgb(103, 97, 97)
+                color: #ffffff
+                margin: -7px
+    .box1
+        display: flex
+        justify-content: flex-end
+        h2
+            margin-right: 20px
+            color: rgb(103, 97, 97)
+        h3
+            color: rgb(103, 97, 97)
+
+    @media (max-width: 768px)
+        .box
+            display: flex
+            justify-content: center
+        ul
+            display: flex
+            justify-content: center
+            margin: 20px 0
+        .box1
+            display: flex
+            justify-content: center
