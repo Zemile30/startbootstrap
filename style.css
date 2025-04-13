@@ -28,7 +28,6 @@ header .box nav a {
   font-size: 18px;
   color: #eee7e7;
   margin: 30px 20px;
-  transition: 1s;
 }
 header .box:hover a {
   cursor: pointer;
@@ -201,11 +200,12 @@ header .box:hover a {
 }
 #about .box .minibox {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: flex-end;
   margin: 60px 80px 100px;
 }
 #about .box .minibox .imgbox {
+  position: absolute;
+  z-index: 100;
   width: 170px;
   height: 170px;
   text-align: center;
@@ -270,12 +270,12 @@ header .box:hover a {
   color: #716e6e;
   line-height: 1.5;
 }
-#about .box .boxend {
+#about .box .minibox2 {
   margin-top: 40px;
   display: flex;
   justify-content: center;
 }
-#about .box .boxend .minibox2 {
+#about .box .minibox2 .textbox1 {
   display: flex;
   align-items: center;
   width: 170px;
@@ -285,51 +285,11 @@ header .box:hover a {
   background-color: #ffc800;
   padding: 0 48px;
 }
-#about .box .boxend .minibox2 h5 {
+#about .box .minibox2 .textbox1 h5 {
   color: #ffffff;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
-}
-@media (max-width: 300px) {
-  #about .box {
-    margin: 30px 0;
-  }
-  #about .box .imgbox {
-    width: 75px;
-    height: 75px;
-  }
-  #about .box .textbox {
-    width: 180px;
-    margin-left: 20px;
-    text-align: start;
-  }
-  #about .box1 {
-    margin: 30px 0;
-  }
-  #about .box1 .imgbox {
-    width: 75px;
-    height: 75px;
-    margin-right: 0;
-  }
-  #about .box1 .textbox {
-    width: 130px;
-    margin-left: 20px;
-    text-align: start;
-  }
-  #about .boxend {
-    display: flex;
-    justify-content: start;
-    margin-top: 30px;
-  }
-  #about .boxend .minibox {
-    width: 75px;
-    height: 75px;
-    padding: 0 15px;
-  }
-  #about .boxend .minibox h5 {
-    font-size: 12px;
-  }
 }
 
 #team {
