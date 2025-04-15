@@ -291,6 +291,60 @@ header .box:hover a {
   font-size: 22px;
   line-height: 1.2;
 }
+@media (max-width: 992px) {
+  #about .box .minibox {
+    margin: 60px 0;
+  }
+  #about .box .minibox .imgbox {
+    width: 75px;
+    height: 75px;
+    transform: translate(300px, 0);
+  }
+  #about .box .minibox .textbox {
+    width: 280px;
+  }
+  #about .box .minibox1 .imgbox {
+    width: 75px;
+    height: 75px;
+    transform: translate(-245px, 0);
+  }
+  #about .box .minibox1 .textbox {
+    width: 220px;
+  }
+  #about .box .minibox2 .textbox1 {
+    width: 75px;
+    height: 75px;
+    padding: 0 15px;
+  }
+  #about .box .minibox2 .textbox1 h5 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 992px) and (max-width: 768px) {
+  #about .box .minibox .imgbox {
+    transform: translate(0, 0);
+  }
+  #about .box .minibox .textbox {
+    width: 430px;
+    text-align: start;
+    margin-left: 92px;
+  }
+  #about .box .minibox1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #about .box .minibox1 .imgbox {
+    transform: translate(0, 0);
+  }
+  #about .box .minibox1 .textbox {
+    width: 430px;
+    margin-left: 92px;
+  }
+  #about .box .minibox2 {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
 
 #team {
   background-color: #f8f9fa;
