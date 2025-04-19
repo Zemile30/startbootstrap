@@ -3,6 +3,7 @@ header
         background-color: #212529
         padding: 20px 80px
         position: fixed
+        z-index: 100
         top: 0
         left: 0
         width: 1550px
@@ -10,14 +11,20 @@ header
             width: 150px
         .menu
             padding-right: 50px
-        nav
-            a
-                font-size: 18px
-                color: #eee7e7
-                margin: 30px 20px
-        &:hover
-            a
-                cursor: pointer
-                color: #ffc800
+            nav
+                a
+                    font-size: 18px
+                    color: #eee7e7
+                    margin: 30px 20px
+            &:hover
+                a
+                    cursor: pointer
+                    color: #ffc800
+    @media (max-width: 992px)
+        .box
+            .menu
+                display: block
+                nav
+                    display: none
     
     

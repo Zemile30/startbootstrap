@@ -14,6 +14,7 @@ header .box {
   background-color: #212529;
   padding: 20px 80px;
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   width: 1550px;
@@ -24,14 +25,22 @@ header .box .imgbox {
 header .box .menu {
   padding-right: 50px;
 }
-header .box nav a {
+header .box .menu nav a {
   font-size: 18px;
   color: #eee7e7;
   margin: 30px 20px;
 }
-header .box:hover a {
+header .box .menu:hover a {
   cursor: pointer;
   color: #ffc800;
+}
+@media (max-width: 992px) {
+  header .box .menu {
+    display: block;
+  }
+  header .box .menu nav {
+    display: none;
+  }
 }
 
 #welcome {
