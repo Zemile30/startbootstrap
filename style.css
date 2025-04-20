@@ -18,9 +18,15 @@ header .box {
   top: 0;
   left: 0;
   width: 1550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 header .box .imgbox {
   width: 150px;
+}
+header .box .minibox {
+  display: none;
 }
 header .box .menu {
   padding-right: 50px;
@@ -34,12 +40,38 @@ header .box .menu:hover a {
   cursor: pointer;
   color: #ffc800;
 }
+@media (max-width: 1400px) {
+  header .box {
+    max-width: 1320px;
+  }
+}
+@media (max-width: 1200px) {
+  header .box {
+    max-width: 1140px;
+  }
+}
 @media (max-width: 992px) {
-  header .box .menu {
-    display: block;
+  header .box {
+    max-width: 960px;
+  }
+  header .box .minibox {
+    display: flex;
+    color: rgb(179, 177, 177);
+    font-weight: 700;
   }
   header .box .menu nav {
     display: none;
+  }
+}
+@media (max-width: 768px) {
+  header .box {
+    max-width: 720px;
+  }
+}
+@media (max-width: 576px) {
+  header .box {
+    max-width: 540px;
+    padding: 20px;
   }
 }
 

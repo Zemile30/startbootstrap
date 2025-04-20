@@ -7,13 +7,14 @@ header
         top: 0
         left: 0
         width: 1550px
+        display: flex
+        align-items: center
+        justify-content: space-between
         .imgbox
             width: 150px
-        .menu
-            nav
-                a
-                    display: none
         .minibox
+            display: none
+        .menu
             padding-right: 50px
             nav
                 a
@@ -24,18 +25,29 @@ header
                 a
                     cursor: pointer
                     color: #ffc800
+    @media (max-width: 1400px)
+        .box
+            max-width: 1320px
+    @media (max-width: 1200px)
+        .box
+            max-width: 1140px 
     @media (max-width: 992px)
         .box
+            max-width: 960px
+            .minibox
+                display: flex
+                color: rgb(179, 177, 177)
+                font-weight: 700
             .menu
                 nav
-                    a
-                        display: block
-                        color: rgb(179, 177, 177)
-                        font-weight: 600
-            .minibox
-                nav
-                    a
-                        display: none
+                    display: none
+    @media (max-width: 768px)
+        .box
+            max-width: 720px
+    @media (max-width: 576px)
+        .box
+            max-width: 540px
+            padding: 20px 
 
     
     
