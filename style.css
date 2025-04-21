@@ -42,17 +42,17 @@ header .box .menu:hover a {
 }
 @media (max-width: 1400px) {
   header .box {
-    max-width: 1320px;
+    max-width: 1400px;
   }
 }
 @media (max-width: 1200px) {
   header .box {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 @media (max-width: 992px) {
   header .box {
-    max-width: 960px;
+    max-width: 992px;
   }
   header .box .minibox {
     display: flex;
@@ -65,13 +65,18 @@ header .box .menu:hover a {
 }
 @media (max-width: 768px) {
   header .box {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 @media (max-width: 576px) {
   header .box {
-    max-width: 540px;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 576px;
     padding: 20px;
+  }
+  header .box .minibox {
+    margin-left: 40px;
   }
 }
 
@@ -331,6 +336,11 @@ header .box .menu:hover a {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
+}
+@media (max-width: 1400) {
+  #about .box .minibox .imgbox {
+    transform: translate(-200px, 0);
+  }
 }
 @media (max-width: 992px) {
   #about .box .minibox {
