@@ -337,9 +337,42 @@ header .box .menu:hover a {
   font-size: 22px;
   line-height: 1.2;
 }
-@media (max-width: 1400) {
+@media (max-width: 1400px) {
+  #about .box .minibox {
+    margin: 60px 0;
+  }
   #about .box .minibox .imgbox {
-    transform: translate(-200px, 0);
+    transform: translate(470px, 0);
+  }
+  #about .box .minibox1 .imgbox {
+    transform: translate(-400px, 0);
+  }
+  #about .box .minibox1 .textbox {
+    margin: 0 0 0 80px;
+    width: 420px;
+  }
+}
+@media (max-width: 1200px) {
+  #about .box .minibox .imgbox {
+    width: 150px;
+    height: 150px;
+    transform: translate(400px, 0);
+  }
+  #about .box .minibox .textbox {
+    width: 400px;
+  }
+  #about .box .minibox1 .imgbox {
+    width: 150px;
+    height: 150px;
+    transform: translate(-315px, 0);
+  }
+  #about .box .minibox1 .textbox {
+    width: 350px;
+  }
+  #about .box .minibox2 .textbox1 {
+    width: 150px;
+    height: 150px;
+    padding: 0 39px;
   }
 }
 @media (max-width: 992px) {
@@ -388,7 +421,7 @@ header .box .menu:hover a {
     transform: translate(0, 0);
   }
   #about .box .minibox1 .textbox {
-    width: 430px;
+    width: 400px;
     margin-left: 92px;
   }
   #about .box .minibox2 {
