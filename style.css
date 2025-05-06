@@ -135,7 +135,7 @@ header .box .menu:hover a {
 }
 #services h1 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 45px;
 }
 #services h3 {
   color: #716e6e;
@@ -246,7 +246,7 @@ header .box .menu:hover a {
 }
 #about h1 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 45px;
 }
 #about h3 {
   color: #716e6e;
@@ -289,12 +289,12 @@ header .box .menu:hover a {
   color: #716e6e;
   line-height: 1.5;
 }
-#about .box .minibox1 {
+#about .box .miniboxright {
   display: flex;
   justify-content: flex-end;
   margin: 60px 0;
 }
-#about .box .minibox1 .imgbox {
+#about .box .miniboxright .imgbox {
   position: absolute;
   width: 170px;
   height: 170px;
@@ -305,33 +305,33 @@ header .box .menu:hover a {
   margin-right: 75px;
   transform: translate(-500px, 0);
 }
-#about .box .minibox1 .imgbox img {
+#about .box .miniboxright .imgbox img {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
 }
-#about .box .minibox1 .textbox {
+#about .box .miniboxright .textbox {
   width: 450px;
   margin-right: 50px;
 }
-#about .box .minibox1 .textbox h2, #about .box .minibox1 .textbox h4 {
+#about .box .miniboxright .textbox h2, #about .box .miniboxright .textbox h4 {
   font-weight: 700;
   font-size: 25px;
 }
-#about .box .minibox1 .textbox h4 {
+#about .box .miniboxright .textbox h4 {
   margin: 10px 0;
 }
-#about .box .minibox1 .textbox p {
+#about .box .miniboxright .textbox p {
   font-size: 20px;
   color: #716e6e;
   line-height: 1.5;
 }
-#about .box .minibox2 {
+#about .box .yellow {
   margin-top: 40px;
   display: flex;
   justify-content: center;
 }
-#about .box .minibox2 .textbox1 {
+#about .box .yellow .textboxyellow {
   display: flex;
   align-items: center;
   width: 170px;
@@ -341,7 +341,7 @@ header .box .menu:hover a {
   background-color: #ffc800;
   padding: 0 48px;
 }
-#about .box .minibox2 .textbox1 h5 {
+#about .box .yellow .textboxyellow h5 {
   color: #ffffff;
   font-weight: 700;
   font-size: 22px;
@@ -354,10 +354,10 @@ header .box .menu:hover a {
   #about .box .minibox .imgbox {
     transform: translate(470px, 0);
   }
-  #about .box .minibox1 .imgbox {
+  #about .box .miniboxright .imgbox {
     transform: translate(-400px, 0);
   }
-  #about .box .minibox1 .textbox {
+  #about .box .miniboxright .textbox {
     margin: 0 0 0 80px;
     width: 420px;
   }
@@ -371,15 +371,15 @@ header .box .menu:hover a {
   #about .box .minibox .textbox {
     width: 400px;
   }
-  #about .box .minibox1 .imgbox {
+  #about .box .miniboxright .imgbox {
     width: 150px;
     height: 150px;
     transform: translate(-315px, 0);
   }
-  #about .box .minibox1 .textbox {
+  #about .box .miniboxright .textbox {
     width: 350px;
   }
-  #about .box .minibox2 .textbox1 {
+  #about .box .yellow .textboxyellow {
     width: 150px;
     height: 150px;
     padding: 0 39px;
@@ -397,20 +397,20 @@ header .box .menu:hover a {
   #about .box .minibox .textbox {
     width: 280px;
   }
-  #about .box .minibox1 .imgbox {
+  #about .box .miniboxright .imgbox {
     width: 75px;
     height: 75px;
     transform: translate(-245px, 0);
   }
-  #about .box .minibox1 .textbox {
-    width: 220px;
+  #about .box .miniboxright .textbox {
+    width: 230px;
   }
-  #about .box .minibox2 .textbox1 {
+  #about .box .yellow .textboxyellow {
     width: 75px;
     height: 75px;
     padding: 0 15px;
   }
-  #about .box .minibox2 .textbox1 h5 {
+  #about .box .yellow .textboxyellow h5 {
     font-size: 12px;
   }
 }
@@ -419,29 +419,25 @@ header .box .menu:hover a {
     transform: translate(0, 0);
   }
   #about .box .minibox .textbox {
-    width: 430px;
+    width: 400px;
     text-align: start;
     margin-left: 92px;
+    padding-right: 0;
   }
-  #about .box .minibox1 {
+  #about .box .miniboxright {
     display: flex;
     justify-content: flex-start;
   }
-  #about .box .minibox1 .imgbox {
+  #about .box .miniboxright .imgbox {
     transform: translate(0, 0);
   }
-  #about .box .minibox1 .textbox {
+  #about .box .miniboxright .textbox {
     width: 400px;
     margin-left: 92px;
   }
-  #about .box .minibox2 {
+  #about .box .yellow {
     display: flex;
     justify-content: flex-start;
-  }
-}
-@media (max-width: 992px) and (max-width: 350px) {
-  #about .box .minibox1 .textbox {
-    width: 150px;
   }
 }
 
@@ -451,7 +447,7 @@ header .box .menu:hover a {
 }
 #team h1 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 45px;
 }
 #team h3 {
   color: #716e6e;
@@ -525,7 +521,7 @@ header .box .menu:hover a {
 }
 #contact h1 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 45px;
   color: #ffffff;
 }
 #contact h3 {
