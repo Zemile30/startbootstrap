@@ -256,7 +256,8 @@ header .box .menu:hover a {
 }
 #about .box .minibox {
   display: flex;
-  margin: 60px 80px 100px;
+  justify-content: center;
+  margin: 60px 80px;
 }
 #about .box .minibox .imgbox {
   position: absolute;
@@ -265,7 +266,6 @@ header .box .menu:hover a {
   text-align: center;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  transform: translate(470px, 0);
 }
 #about .box .minibox .imgbox img {
   max-width: 100%;
@@ -276,6 +276,7 @@ header .box .menu:hover a {
   width: 470px;
   padding-right: 50px;
   text-align: end;
+  transform: translate(-320px, 0);
 }
 #about .box .minibox .textbox h2, #about .box .minibox .textbox h4 {
   font-weight: 700;
@@ -291,7 +292,7 @@ header .box .menu:hover a {
 }
 #about .box .miniboxright {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 60px 0;
 }
 #about .box .miniboxright .imgbox {
@@ -302,8 +303,6 @@ header .box .menu:hover a {
   text-align: center;
   border-radius: 100%;
   background-color: #ffc800;
-  margin-right: 75px;
-  transform: translate(-500px, 0);
 }
 #about .box .miniboxright .imgbox img {
   max-width: 100%;
@@ -313,6 +312,7 @@ header .box .menu:hover a {
 #about .box .miniboxright .textbox {
   width: 450px;
   margin-right: 50px;
+  transform: translate(390px, 0);
 }
 #about .box .miniboxright .textbox h2, #about .box .miniboxright .textbox h4 {
   font-weight: 700;
@@ -327,7 +327,7 @@ header .box .menu:hover a {
   line-height: 1.5;
 }
 #about .box .yellow {
-  margin-top: 40px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
 }
@@ -347,37 +347,22 @@ header .box .menu:hover a {
   font-size: 22px;
   line-height: 1.2;
 }
-@media (max-width: 1400px) {
-  #about .box .minibox {
-    margin: 60px 0;
-  }
-  #about .box .minibox .imgbox {
-    transform: translate(470px, 0);
-  }
-  #about .box .miniboxright .imgbox {
-    transform: translate(-400px, 0);
-  }
-  #about .box .miniboxright .textbox {
-    margin: 0 0 0 80px;
-    width: 420px;
-  }
-}
 @media (max-width: 1200px) {
   #about .box .minibox .imgbox {
     width: 150px;
     height: 150px;
-    transform: translate(400px, 0);
   }
   #about .box .minibox .textbox {
-    width: 400px;
+    width: 350px;
+    padding-right: 0;
   }
   #about .box .miniboxright .imgbox {
     width: 150px;
     height: 150px;
-    transform: translate(-315px, 0);
   }
   #about .box .miniboxright .textbox {
     width: 350px;
+    margin-left: -100px;
   }
   #about .box .yellow .textboxyellow {
     width: 150px;
@@ -390,20 +375,60 @@ header .box .menu:hover a {
     margin: 60px 0;
   }
   #about .box .minibox .imgbox {
-    width: 75px;
-    height: 75px;
-    transform: translate(300px, 0);
+    width: 100px;
+    height: 100px;
   }
   #about .box .minibox .textbox {
-    width: 280px;
+    width: 240px;
+    margin-right: -220px;
+  }
+  #about .box .miniboxright .imgbox {
+    width: 100px;
+    height: 100px;
+  }
+  #about .box .miniboxright .textbox {
+    width: 240px;
+    margin-left: -320px;
+  }
+  #about .box .yellow .textboxyellow {
+    width: 100px;
+    height: 100px;
+    padding: 0 24px;
+  }
+  #about .box .yellow .textboxyellow h5 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 992px) and (max-width: 768px) {
+  #about .box .minibox {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #about .box .minibox .imgbox {
+    width: 75px;
+    height: 75px;
+  }
+  #about .box .minibox .textbox {
+    width: 500px;
+    text-align: start;
+    margin-left: 420px;
+    padding-right: 0;
+  }
+  #about .box .miniboxright {
+    display: flex;
+    justify-content: flex-start;
   }
   #about .box .miniboxright .imgbox {
     width: 75px;
     height: 75px;
-    transform: translate(-245px, 0);
   }
   #about .box .miniboxright .textbox {
-    width: 230px;
+    width: 374px;
+    margin-left: -300px;
+  }
+  #about .box .yellow {
+    display: flex;
+    justify-content: flex-start;
   }
   #about .box .yellow .textboxyellow {
     width: 75px;
@@ -414,33 +439,6 @@ header .box .menu:hover a {
     font-size: 12px;
   }
 }
-@media (max-width: 992px) and (max-width: 768px) {
-  #about .box .minibox .imgbox {
-    transform: translate(0, 0);
-  }
-  #about .box .minibox .textbox {
-    width: 400px;
-    text-align: start;
-    margin-left: 92px;
-    padding-right: 0;
-  }
-  #about .box .miniboxright {
-    display: flex;
-    justify-content: flex-start;
-  }
-  #about .box .miniboxright .imgbox {
-    transform: translate(0, 0);
-  }
-  #about .box .miniboxright .textbox {
-    width: 400px;
-    margin-left: 92px;
-  }
-  #about .box .yellow {
-    display: flex;
-    justify-content: flex-start;
-  }
-}
-
 #team {
   background-color: #f8f9fa;
   padding: 50px 0;
@@ -523,6 +521,7 @@ header .box .menu:hover a {
   font-weight: 700;
   font-size: 45px;
   color: #ffffff;
+  margin-top: 50px;
 }
 #contact h3 {
   color: #716e6e;
@@ -555,14 +554,14 @@ header .box .menu:hover a {
   border-radius: 5px;
   color: rgb(188, 185, 185);
 }
-#contact .box1 .btn {
+#contact .boxmsg .btn {
   padding: 20px 50px;
   background-color: #ffc800;
   opacity: 0.7;
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
-  margin: 50px 0;
+  margin: 20px 0 0;
 }
 @media (max-width: 768px) {
   #contact .box {
@@ -597,17 +596,17 @@ footer ul li {
 }
 footer ul li .icon {
   color: #ffffff;
-  margin: -7px;
+  margin: -7px -6px;
 }
-footer .box1 {
+footer .boxplc {
   display: flex;
   justify-content: flex-end;
 }
-footer .box1 h2 {
+footer .boxplc h2 {
   margin-right: 20px;
   color: rgb(103, 97, 97);
 }
-footer .box1 h3 {
+footer .boxplc h3 {
   color: rgb(103, 97, 97);
 }
 @media (max-width: 992px) {
@@ -620,7 +619,7 @@ footer .box1 h3 {
     justify-content: center;
     margin: 20px 0;
   }
-  footer .box1 {
+  footer .boxplc {
     display: flex;
     justify-content: center;
   }

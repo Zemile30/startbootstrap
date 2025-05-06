@@ -8,11 +8,11 @@
         font-size: 20px
         font-style: italic
         margin: 20px 0 0
-
     .box
         .minibox
             display: flex
-            margin: 60px 80px 100px
+            justify-content: center
+            margin: 60px 80px 
             .imgbox
                 position: absolute
                 width: 170px
@@ -20,8 +20,6 @@
                 text-align: center
                 border: 7px solid #e9ecef
                 border-radius: 100%
-                transform: translate(470px, 0)
-            
                 img
                     max-width: 100%
                     height: auto
@@ -30,6 +28,7 @@
                 width: 470px
                 padding-right: 50px
                 text-align: end
+                transform: translate(-320px, 0)
                 h2,h4
                     font-weight: 700
                     font-size: 25px
@@ -41,7 +40,7 @@
                     line-height: 1.5
         .miniboxright
             display: flex
-            justify-content: flex-end
+            justify-content: center
             margin: 60px 0 
             .imgbox
                 position: absolute
@@ -51,8 +50,6 @@
                 text-align: center
                 border-radius: 100%
                 background-color: #ffc800
-                margin-right: 75px
-                transform: translate(-500px, 0)
                 img
                     max-width: 100%
                     height: auto
@@ -60,6 +57,7 @@
             .textbox
                 width: 450px
                 margin-right: 50px
+                transform: translate(390px, 0)
                 h2,h4
                     font-weight: 700
                     font-size: 25px
@@ -70,7 +68,7 @@
                     color:  #716e6e
                     line-height: 1.5
         .yellow
-            margin-top: 40px
+            margin-top: 80px
             display: flex
             justify-content: center
             .textboxyellow
@@ -87,34 +85,22 @@
                     font-weight: 700
                     font-size: 22px
                     line-height: 1.2
-    @media (max-width: 1400px)
-        .box
-            .minibox
-                margin: 60px 0
-                .imgbox
-                    transform: translate(470px,0)
-            .miniboxright
-                .imgbox
-                    transform: translate(-400px,0)
-                .textbox
-                    margin: 0 0 0 80px
-                    width: 420px
     @media (max-width: 1200px)
         .box
             .minibox
                 .imgbox
                     width: 150px
                     height: 150px
-                    transform: translate(400px,0)
                 .textbox
-                    width: 400px
+                    width: 350px
+                    padding-right: 0
             .miniboxright
                 .imgbox
                     width: 150px
                     height: 150px
-                    transform: translate(-315px,0)
                 .textbox
                     width: 350px
+                    margin-left: -100px
             .yellow
                 .textboxyellow
                     width: 150px
@@ -125,46 +111,63 @@
             .minibox
                 margin: 60px 0
                 .imgbox
-                    width: 75px
-                    height: 75px
-                    transform: translate(300px,0)
+                    width: 100px
+                    height: 100px
                 .textbox
-                    width: 280px
+                    width: 240px
+                    margin-right: -220px
             .miniboxright
                 .imgbox
-                    width: 75px
-                    height: 75px
-                    transform: translate(-245px,0)
+                    width: 100px
+                    height: 100px
                 .textbox
-                    width: 230px
+                    width: 240px
+                    margin-left: -320px
             .yellow
                 .textboxyellow
-                    width: 75px
-                    height: 75px
-                    padding: 0 15px
+                    width: 100px
+                    height: 100px
+                    padding: 0 24px
                     h5 
-                        font-size: 12px
+                        font-size: 15px
         @media (max-width: 768px)
             .box
                 .minibox
+                    display: flex
+                    justify-content: flex-start
                     .imgbox
-                        transform: translate(0,0)
+                        width: 75px
+                        height: 75px
                     .textbox
-                        width: 400px
+                        width: 500px
                         text-align: start
-                        margin-left: 92px
+                        margin-left: 420px
                         padding-right: 0
                 .miniboxright
                     display: flex
                     justify-content: flex-start
                     .imgbox
-                        transform: translate(0,0)
+                        width: 75px
+                        height: 75px
                     .textbox
-                        width: 400px
-                        margin-left: 92px
+                        width: 374px
+                        margin-left: -300px
                 .yellow
                     display: flex
                     justify-content: flex-start
+                    .textboxyellow
+                        width: 75px
+                        height: 75px
+                        padding: 0 15px
+                        h5 
+                            font-size: 12px
+        @media (max-width: 576px)
+            .box
+                .minibox
+                    .textbox
+                        
+                        
+
        
 
       
