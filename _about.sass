@@ -12,9 +12,9 @@
         .minibox
             display: flex
             justify-content: center
-            margin: 60px 80px 
+            margin: 60px 0
             .imgbox
-                position: absolute
+                position: relative
                 width: 170px
                 height: 170px
                 text-align: center
@@ -28,7 +28,7 @@
                 width: 470px
                 padding-right: 50px
                 text-align: end
-                transform: translate(-320px, 0)
+                // transform: translate(-320px, 0)
                 h2,h4
                     font-weight: 700
                     font-size: 25px
@@ -43,7 +43,7 @@
             justify-content: center
             margin: 60px 0 
             .imgbox
-                position: absolute
+                position: relative
                 width: 170px
                 height: 170px
                 border: 7px solid #e9ecef
@@ -57,7 +57,7 @@
             .textbox
                 width: 450px
                 margin-right: 50px
-                transform: translate(390px, 0)
+                // transform: translate(390px, 0)
                 h2,h4
                     font-weight: 700
                     font-size: 25px
@@ -100,7 +100,7 @@
                     height: 150px
                 .textbox
                     width: 350px
-                    margin-left: -100px
+                    // margin-left: -100px
             .yellow
                 .textboxyellow
                     width: 150px
@@ -115,14 +115,14 @@
                     height: 100px
                 .textbox
                     width: 240px
-                    margin-right: -220px
+                    // margin-right: -220px
             .miniboxright
                 .imgbox
                     width: 100px
                     height: 100px
                 .textbox
                     width: 240px
-                    margin-left: -320px
+                    // margin-left: -320px
             .yellow
                 .textboxyellow
                     width: 100px
@@ -139,9 +139,9 @@
                         width: 75px
                         height: 75px
                     .textbox
-                        width: 500px
+                        width: 400px
                         text-align: start
-                        margin-left: 420px
+                        // margin-left: 420px
                         padding-right: 0
                 .miniboxright
                     display: flex
@@ -151,7 +151,7 @@
                         height: 75px
                     .textbox
                         width: 374px
-                        margin-left: -300px
+                        // margin-left: -300px
                 .yellow
                     display: flex
                     justify-content: flex-start
@@ -164,7 +164,11 @@
         @media (max-width: 576px)
             .box
                 .minibox
-                    .textbox
+                    .imgbox
+                        position: absolute
+        
+
+        
                         
                         
 

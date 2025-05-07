@@ -257,10 +257,10 @@ header .box .menu:hover a {
 #about .box .minibox {
   display: flex;
   justify-content: center;
-  margin: 60px 80px;
+  margin: 60px 0;
 }
 #about .box .minibox .imgbox {
-  position: absolute;
+  position: relative;
   width: 170px;
   height: 170px;
   text-align: center;
@@ -276,7 +276,6 @@ header .box .menu:hover a {
   width: 470px;
   padding-right: 50px;
   text-align: end;
-  transform: translate(-320px, 0);
 }
 #about .box .minibox .textbox h2, #about .box .minibox .textbox h4 {
   font-weight: 700;
@@ -296,7 +295,7 @@ header .box .menu:hover a {
   margin: 60px 0;
 }
 #about .box .miniboxright .imgbox {
-  position: absolute;
+  position: relative;
   width: 170px;
   height: 170px;
   border: 7px solid #e9ecef;
@@ -312,7 +311,6 @@ header .box .menu:hover a {
 #about .box .miniboxright .textbox {
   width: 450px;
   margin-right: 50px;
-  transform: translate(390px, 0);
 }
 #about .box .miniboxright .textbox h2, #about .box .miniboxright .textbox h4 {
   font-weight: 700;
@@ -362,7 +360,6 @@ header .box .menu:hover a {
   }
   #about .box .miniboxright .textbox {
     width: 350px;
-    margin-left: -100px;
   }
   #about .box .yellow .textboxyellow {
     width: 150px;
@@ -380,7 +377,6 @@ header .box .menu:hover a {
   }
   #about .box .minibox .textbox {
     width: 240px;
-    margin-right: -220px;
   }
   #about .box .miniboxright .imgbox {
     width: 100px;
@@ -388,7 +384,6 @@ header .box .menu:hover a {
   }
   #about .box .miniboxright .textbox {
     width: 240px;
-    margin-left: -320px;
   }
   #about .box .yellow .textboxyellow {
     width: 100px;
@@ -409,9 +404,8 @@ header .box .menu:hover a {
     height: 75px;
   }
   #about .box .minibox .textbox {
-    width: 500px;
+    width: 400px;
     text-align: start;
-    margin-left: 420px;
     padding-right: 0;
   }
   #about .box .miniboxright {
@@ -424,7 +418,6 @@ header .box .menu:hover a {
   }
   #about .box .miniboxright .textbox {
     width: 374px;
-    margin-left: -300px;
   }
   #about .box .yellow {
     display: flex;
@@ -439,6 +432,12 @@ header .box .menu:hover a {
     font-size: 12px;
   }
 }
+@media (max-width: 992px) and (max-width: 576px) {
+  #about .box .minibox .imgbox {
+    position: absolute;
+  }
+}
+
 #team {
   background-color: #f8f9fa;
   padding: 50px 0;
