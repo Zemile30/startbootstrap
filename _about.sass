@@ -14,7 +14,7 @@
             justify-content: center
             margin: 60px 0
             .imgbox
-                position: relative
+                position: absolute
                 width: 170px
                 height: 170px
                 text-align: center
@@ -25,10 +25,9 @@
                     height: auto
                     border-radius: 50%      
             .textbox
-                width: 470px
-                padding-right: 50px
+                width: 550px
+                padding: 0 20px 0 100px
                 text-align: end
-                // transform: translate(-320px, 0)
                 h2,h4
                     font-weight: 700
                     font-size: 25px
@@ -43,7 +42,7 @@
             justify-content: center
             margin: 60px 0 
             .imgbox
-                position: relative
+                position: absolute
                 width: 170px
                 height: 170px
                 border: 7px solid #e9ecef
@@ -57,7 +56,6 @@
             .textbox
                 width: 450px
                 margin-right: 50px
-                // transform: translate(390px, 0)
                 h2,h4
                     font-weight: 700
                     font-size: 25px
@@ -100,7 +98,7 @@
                     height: 150px
                 .textbox
                     width: 350px
-                    // margin-left: -100px
+                    margin-left: -90px
             .yellow
                 .textboxyellow
                     width: 150px
@@ -115,14 +113,14 @@
                     height: 100px
                 .textbox
                     width: 240px
-                    // margin-right: -220px
+                    margin-right: -90px
             .miniboxright
                 .imgbox
                     width: 100px
                     height: 100px
                 .textbox
                     width: 240px
-                    // margin-left: -320px
+                    margin-left: -90px
             .yellow
                 .textboxyellow
                     width: 100px
@@ -141,7 +139,6 @@
                     .textbox
                         width: 400px
                         text-align: start
-                        // margin-left: 420px
                         padding-right: 0
                 .miniboxright
                     display: flex
@@ -150,8 +147,8 @@
                         width: 75px
                         height: 75px
                     .textbox
-                        width: 374px
-                        // margin-left: -300px
+                        width: 400px
+                        margin-left: -85px
                 .yellow
                     display: flex
                     justify-content: flex-start
@@ -164,8 +161,11 @@
         @media (max-width: 576px)
             .box
                 .minibox
-                    .imgbox
-                        position: absolute
+                    .textbox
+                        width: 350px
+                .miniboxright
+                    width: 350px
+
         
 
         
