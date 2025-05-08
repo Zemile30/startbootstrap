@@ -28,6 +28,7 @@
                 width: 550px
                 padding: 0 20px 0 100px
                 text-align: end
+                transform: translate(-370px,0)
                 h2,h4
                     font-weight: 700
                     font-size: 25px
@@ -55,7 +56,7 @@
                     border-radius: 50%     
             .textbox
                 width: 450px
-                margin-right: 50px
+                transform: translate(350px,0)
                 h2,h4
                     font-weight: 700
                     font-size: 25px
@@ -90,7 +91,7 @@
                     width: 150px
                     height: 150px
                 .textbox
-                    width: 350px
+                    width: 450px
                     padding-right: 0
             .miniboxright
                 .imgbox
@@ -112,15 +113,17 @@
                     width: 100px
                     height: 100px
                 .textbox
-                    width: 240px
+                    width: 330px
                     margin-right: -90px
+                    transform: translate(-290px,0)
             .miniboxright
                 .imgbox
                     width: 100px
                     height: 100px
                 .textbox
                     width: 240px
-                    margin-left: -90px
+                    // margin-left: -90px
+                    transform: translate(250px,0)
             .yellow
                 .textboxyellow
                     width: 100px
@@ -134,37 +137,44 @@
                     display: flex
                     justify-content: flex-start
                     .imgbox
-                        width: 75px
-                        height: 75px
+                        width: 85px
+                        height: 85px
                     .textbox
-                        width: 400px
+                        width: 500px
                         text-align: start
                         padding-right: 0
+                        transform: translate(0,0)
                 .miniboxright
                     display: flex
                     justify-content: flex-start
                     .imgbox
-                        width: 75px
-                        height: 75px
+                        width: 85px
+                        height: 85px
                     .textbox
                         width: 400px
-                        margin-left: -85px
+                        transform: translate(0,0)
+                        margin-left: 100px
                 .yellow
                     display: flex
                     justify-content: flex-start
                     .textboxyellow
-                        width: 75px
-                        height: 75px
-                        padding: 0 15px
+                        width: 85px
+                        height: 85px
+                        padding: 0 19px
                         h5 
                             font-size: 12px
         @media (max-width: 576px)
             .box
                 .minibox
                     .textbox
-                        width: 350px
+                        width: 330px
+                        h4
+                            padding-right: 10px
                 .miniboxright
-                    width: 350px
+                    .textbox
+                        width: 350px
+                        margin-left: 100px
+                        
 
         
 

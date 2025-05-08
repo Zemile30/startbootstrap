@@ -276,6 +276,7 @@ header .box .menu:hover a {
   width: 550px;
   padding: 0 20px 0 100px;
   text-align: end;
+  transform: translate(-370px, 0);
 }
 #about .box .minibox .textbox h2, #about .box .minibox .textbox h4 {
   font-weight: 700;
@@ -310,7 +311,7 @@ header .box .menu:hover a {
 }
 #about .box .miniboxright .textbox {
   width: 450px;
-  margin-right: 50px;
+  transform: translate(350px, 0);
 }
 #about .box .miniboxright .textbox h2, #about .box .miniboxright .textbox h4 {
   font-weight: 700;
@@ -351,7 +352,7 @@ header .box .menu:hover a {
     height: 150px;
   }
   #about .box .minibox .textbox {
-    width: 350px;
+    width: 450px;
     padding-right: 0;
   }
   #about .box .miniboxright .imgbox {
@@ -377,8 +378,9 @@ header .box .menu:hover a {
     height: 100px;
   }
   #about .box .minibox .textbox {
-    width: 240px;
+    width: 330px;
     margin-right: -90px;
+    transform: translate(-290px, 0);
   }
   #about .box .miniboxright .imgbox {
     width: 100px;
@@ -386,7 +388,7 @@ header .box .menu:hover a {
   }
   #about .box .miniboxright .textbox {
     width: 240px;
-    margin-left: -90px;
+    transform: translate(250px, 0);
   }
   #about .box .yellow .textboxyellow {
     width: 100px;
@@ -403,34 +405,36 @@ header .box .menu:hover a {
     justify-content: flex-start;
   }
   #about .box .minibox .imgbox {
-    width: 75px;
-    height: 75px;
+    width: 85px;
+    height: 85px;
   }
   #about .box .minibox .textbox {
-    width: 400px;
+    width: 500px;
     text-align: start;
     padding-right: 0;
+    transform: translate(0, 0);
   }
   #about .box .miniboxright {
     display: flex;
     justify-content: flex-start;
   }
   #about .box .miniboxright .imgbox {
-    width: 75px;
-    height: 75px;
+    width: 85px;
+    height: 85px;
   }
   #about .box .miniboxright .textbox {
     width: 400px;
-    margin-left: -85px;
+    transform: translate(0, 0);
+    margin-left: 100px;
   }
   #about .box .yellow {
     display: flex;
     justify-content: flex-start;
   }
   #about .box .yellow .textboxyellow {
-    width: 75px;
-    height: 75px;
-    padding: 0 15px;
+    width: 85px;
+    height: 85px;
+    padding: 0 19px;
   }
   #about .box .yellow .textboxyellow h5 {
     font-size: 12px;
@@ -438,10 +442,14 @@ header .box .menu:hover a {
 }
 @media (max-width: 992px) and (max-width: 576px) {
   #about .box .minibox .textbox {
-    width: 350px;
+    width: 330px;
   }
-  #about .box .miniboxright {
+  #about .box .minibox .textbox h4 {
+    padding-right: 10px;
+  }
+  #about .box .miniboxright .textbox {
     width: 350px;
+    margin-left: 100px;
   }
 }
 
