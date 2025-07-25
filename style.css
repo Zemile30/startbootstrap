@@ -86,7 +86,7 @@ header .box .menu:hover a {
     padding: 20px;
   }
   header .box .minibox {
-    margin-left: 50px;
+    margin-left: 90px;
   }
 }
 
@@ -512,6 +512,7 @@ header .box .menu:hover a {
   margin-bottom: 50px;
   line-height: 1.4;
 }
+
 #client {
   padding: 50px 0;
 }
