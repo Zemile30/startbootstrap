@@ -61,6 +61,7 @@ header .box .menu:hover a {
     border: 0.5px solid rgb(97, 94, 94);
     padding: 10px 15px;
     border-radius: 5px;
+    margin-left: 90px;
   }
   header .box .minibox h1 {
     margin-right: 5px;
@@ -84,9 +85,6 @@ header .box .menu:hover a {
     justify-content: flex-start;
     max-width: 576px;
     padding: 20px;
-  }
-  header .box .minibox {
-    margin-left: 100px;
   }
 }
 
